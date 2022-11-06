@@ -4,7 +4,7 @@ import {
   retrieveTutorials,
   findTutorialsByTitle,
   deleteAllTutorials,
-} from "../features/tutorials/tutorialSlice";
+} from "../features/tutorial/tutorialSlice";
 import { Link } from "react-router-dom";
 
 const TutorialsList = () => {

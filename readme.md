@@ -10,16 +10,17 @@ We can create, retrieve, update, delete Tutorials.
 There is a Search bar for finding Tutorials by title.
 Here are screenshots of our React Redux CRUD Application.
 
-
 ### `– Create a Tutorial:`
 
+<img src="1.png" />
 
 ### `– Retrieve all items`
 
-
+<img src="2.png" />
 
 ### `– Click on Edit button to update an item:`
 
+<img src="3.png" />
 
 ### `- On this Page, you can:`
 
@@ -31,10 +32,10 @@ Here are screenshots of our React Redux CRUD Application.
 
 ### `– Search Tutorials by title:`
 
-
+<img src="./4.png" />
 ### `– Check Redux State with Dev-tool:`
 
-
+<img src="./5.png" />
 
 ### `– This React Redux-Toolkit Client consumes the following Web API:`
 

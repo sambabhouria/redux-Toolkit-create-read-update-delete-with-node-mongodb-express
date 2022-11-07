@@ -1,6 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 
+const tutorialsRoutes = require("./routes/turorial.routes");
+
 const app = express();
 
 var corsOptions = {
@@ -33,6 +35,7 @@ db.mongoose
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to redux toolkit crud node and express and mongodb application." });
 });
+
 
 require("./routes/turorial.routes")(app);
 

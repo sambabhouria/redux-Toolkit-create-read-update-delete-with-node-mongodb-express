@@ -21,7 +21,6 @@ const AddTutorial = () => {
 
   const saveTutorial = () => {
     const { title, description } = tutorial;
-
     dispatch(createTutorial({ title, description }))
       .unwrap()
       .then(data => {

@@ -24,19 +24,19 @@ const create = async(data) => {
 
 
 const update = (id, data) => {
-  return http.put(`/tutorials/${id}`, data);
+  return axios.put(`${API_URL}/tutorials/${id}`, data);
 };
 
 const remove = id => {
-  return http.delete(`/tutorials/${id}`);
+  return axios.delete(`${API_URL}/tutorials/${id}`);
 };
 
 const removeAll = () => {
-  return http.delete(`/tutorials`);
+  return axios.delete(`${API_URL}/tutorials`);
 };
 
 const findByTitle = title => {
-  return http.get(`/tutorials?title=${title}`);
+  return axios.get(`${API_URL}/tutorials?title=${title}`);
 };
 
 const TutorialService = {
